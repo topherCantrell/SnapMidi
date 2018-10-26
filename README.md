@@ -11,14 +11,14 @@ Each core has access to all 32 GPIO pins. Each core has two built in counter/tim
 
 Each core has 2K of RAM, but the RISC processor accesses the memory as 4-byte longs. Thus there are only 512 addressable locations (code or data) in each COG. Each RISC instruction is a long. Each instruction has a SOURCE field and DESTINATION field that can be any address in the COG memory. There are no registers. All 512 locations are available as registers.
 
-![](https://github.com/topherCantrell/snap/blob/master/SnapMidi/art/image2015-3-5%207_49_42.png)
+![](art/image2015-3-5%207_49_42.png)
 
 The Propeller has 64K of memory shared by all COGs. 32K is pure RAM. This entire RAM is automatically loaded from a serial EEPROM at startup.
 
 The last 32K contains math tables, fonts, and the SPIN interpreter. SPIN is a Parallax-invented language that compiles into byte-codes that are stored in the shared RAM. The interpreter in a COG reads the byte-codes and executes the program. The SPIN interpreter allows you to "spin up" multiple interpreters or to run pure RISC assembly programs.
 But the start-up process always begins with a SPIN interpreter loaded into the first COG and an initial SPIN program to get everything else going.
 
-![](https://github.com/topherCantrell/snap/blob/master/SnapMidi/art/image2015-3-5%207_50_43.png)
+![](art/image2015-3-5%207_50_43.png)
 
 # Virtual Hardware and Project
 
