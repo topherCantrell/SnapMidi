@@ -1,0 +1,7 @@
+.HTM text/html
+.JS application/x-javascript
+.GIF image/gif
+.SWF application/x-shockwave-flash
+.ICO image/x-icon
+CROSSDOMAIN.XML text/x-cross-domain-policy
+* application/octet-stream

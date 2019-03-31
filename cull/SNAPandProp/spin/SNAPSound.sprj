@@ -1,0 +1,26 @@
+[Iamabstprojectfile]
+Iamthemagicnumber=1
+
+[Main]
+SelectedTab=1
+TreePath=/Users/topher/workspace/SnapAndProp/spin
+NumSubs=2
+OverrideOptimisation=0
+OptimiseFlags=0
+SearchPath=/Users/topher/propeller/Library
+
+[File1]
+FileName=/Users/topher/projects/SnapAndProp/spin/SimpleSD.spin
+TopLine=1
+
+[File2]
+FileName=/Users/topher/projects/SnapAndProp/spin/SNAPSound.spin
+TopLine=12
+
+[File3]
+FileName=/Users/topher/propeller/Library/Parallax Serial Terminal.spin
+TopLine=141
+
+[File4]
+FileName=/Users/topher/propeller/Library/Parallax Serial Terminal.spin
+TopLine=141
